@@ -1,0 +1,36 @@
+{
+  "source_type": "PostmanCollectionParser",
+  "tools": [
+    {
+      "name": "scope_one_mobile_get_api_mobile_combustion_get_report",
+      "description": "HTTP GET /api/mobile-combustion/get-report from Postman collection.",
+      "method": "GET",
+      "path": "/api/mobile-combustion/get-report",
+      "tags": [
+        "ESG Collection",
+        "scope-one-mobile"
+      ],
+      "parameters": [],
+      "metadata": {
+        "base_url": "http://aliwalay-001-site3.atempurl.com",
+        "source": "postman_collection"
+      }
+    },
+    {
+      "name": "scope_three_bussines_travel_get_api_scope_three_business_travel",
+      "description": "HTTP GET /api/scope-three/business-travel/get-report from Postman collection.",
+      "method": "GET",
+      "path": "/api/scope-three/business-travel/get-report",
+      "tags": [
+        "ESG Collection",
+        "scope-three-bussines-travel"
+      ],
+      "parameters": [],
+      "metadata": {
+        "base_url": "http://aliwalay-001-site3.atempurl.com",
+        "source": "postman_collection"
+      }
+    }
+  ]
+}
+

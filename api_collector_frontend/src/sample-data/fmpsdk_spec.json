@@ -1,0 +1,1032 @@
+[
+  {
+    "name": "fmpsdk_actives",
+    "description": "Query FMP /actives/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "actives"
+    }
+  },
+  {
+    "name": "fmpsdk_available_commodities",
+    "description": "Query FMP /symbol/available-commodities/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_commodities"
+    }
+  },
+  {
+    "name": "fmpsdk_available_cryptocurrencies",
+    "description": "Query FMP /symbol/available-cryptocurrencies/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_cryptocurrencies"
+    }
+  },
+  {
+    "name": "fmpsdk_available_efts",
+    "description": "Trying to avoid a breaking change.\nThis method is misspelled so moving to a correct spelling method and deprecating this one.\nUse available_etfs() instead.\n:param apikey:\n:return:",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_efts"
+    }
+  },
+  {
+    "name": "fmpsdk_available_etfs",
+    "description": "Query FMP /symbol/available-etfs/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_etfs"
+    }
+  },
+  {
+    "name": "fmpsdk_available_euronext",
+    "description": "Query FMP /symbol/available-euronext/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_euronext"
+    }
+  },
+  {
+    "name": "fmpsdk_available_forex",
+    "description": "Query FMP /symbol/available-forex-currency-pairs/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_forex"
+    }
+  },
+  {
+    "name": "fmpsdk_available_indexes",
+    "description": "Query FMP /symbol/available-indexes/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_indexes"
+    }
+  },
+  {
+    "name": "fmpsdk_available_mutual_funds",
+    "description": "Query FMP /symbol/available-mutual-funds/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_mutual_funds"
+    }
+  },
+  {
+    "name": "fmpsdk_available_traded_list",
+    "description": "Query FMP /available-traded/list/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_traded_list"
+    }
+  },
+  {
+    "name": "fmpsdk_available_tsx",
+    "description": "Query FMP /symbol/available-tsx/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_tsx"
+    }
+  },
+  {
+    "name": "fmpsdk_balance_sheet_statement",
+    "description": "Query FMP /balance-sheet-statement/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "balance_sheet_statement.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "balance_sheet_statement"
+    }
+  },
+  {
+    "name": "fmpsdk_balance_sheet_statement_as_reported",
+    "description": "Query FMP /balance-sheet-statement-as-reported/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "balance_sheet_as_reported.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "balance_sheet_statement_as_reported"
+    }
+  },
+  {
+    "name": "fmpsdk_balance_sheet_statement_growth",
+    "description": "Query FMP /balance-sheet-statement-growth/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "balance_sheet_statement_growth"
+    }
+  },
+  {
+    "name": "fmpsdk_bulk_historical_eod",
+    "description": "Batch request that contains all end of day prices for specific date",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "bulk_historical_eod"
+    }
+  },
+  {
+    "name": "fmpsdk_bulk_profiles",
+    "description": "It contains all profiles from our API in one CSV file",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "bulk_profiles"
+    }
+  },
+  {
+    "name": "fmpsdk_cash_flow_statement",
+    "description": "Query FMP /cash-flow-statement/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "cash_flow_statement.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cash_flow_statement"
+    }
+  },
+  {
+    "name": "fmpsdk_cash_flow_statement_as_reported",
+    "description": "Query FMP /cash-flow-statement-as-reported/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "cash_flow_as_reported.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cash_flow_statement_as_reported"
+    }
+  },
+  {
+    "name": "fmpsdk_cash_flow_statement_growth",
+    "description": "Query FMP /cash-flow-statement-growth/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cash_flow_statement_growth"
+    }
+  },
+  {
+    "name": "fmpsdk_cik",
+    "description": "Query FMP /cik/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "cik_id",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cik"
+    }
+  },
+  {
+    "name": "fmpsdk_cik_list",
+    "description": "Query FMP /cik_list/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cik_list"
+    }
+  },
+  {
+    "name": "fmpsdk_cik_search",
+    "description": "Query FMP /cik-search/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cik_search"
+    }
+  },
+  {
+    "name": "fmpsdk_commitment_of_traders_report",
+    "description": "Query FMP /commitment_of_traders_report API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commitment_of_traders_report"
+    }
+  },
+  {
+    "name": "fmpsdk_commitment_of_traders_report_analysis",
+    "description": "Query FMP /commitment_of_traders_report_analysis API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commitment_of_traders_report_analysis"
+    }
+  },
+  {
+    "name": "fmpsdk_commitment_of_traders_report_list",
+    "description": "Query FMP /commitment_of_traders_report/list API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commitment_of_traders_report_list"
+    }
+  },
+  {
+    "name": "fmpsdk_commodities_list",
+    "description": "Query FMP /quotes/commodity/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commodities_list"
+    }
+  },
+  {
+    "name": "fmpsdk_company_profile",
+    "description": "Query FMP /profile/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "company_profile"
+    }
+  },
+  {
+    "name": "fmpsdk_crypto_news",
+    "description": "Query FMP /crypto_news/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "crypto_news"
+    }
+  },
+  {
+    "name": "fmpsdk_cryptocurrencies_list",
+    "description": "Query FMP /quotes/crypto/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cryptocurrencies_list"
+    }
+  },
+  {
+    "name": "fmpsdk_cusip",
+    "description": "Query FMP /cusip/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "cik_id",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cusip"
+    }
+  },
+  {
+    "name": "fmpsdk_delisted_companies",
+    "description": "Query FMP /delisted-companies/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "delisted_companies"
+    }
+  },
+  {
+    "name": "fmpsdk_discounted_cash_flow",
+    "description": "Query FMP /discounted-cash-flow/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "discounted_cash_flow"
+    }
+  }
+]

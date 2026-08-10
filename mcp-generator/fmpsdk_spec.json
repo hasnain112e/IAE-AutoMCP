@@ -1,0 +1,4072 @@
+[
+  {
+    "name": "fmpsdk_actives",
+    "description": "Query FMP /actives/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "actives"
+    }
+  },
+  {
+    "name": "fmpsdk_available_commodities",
+    "description": "Query FMP /symbol/available-commodities/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_commodities"
+    }
+  },
+  {
+    "name": "fmpsdk_available_cryptocurrencies",
+    "description": "Query FMP /symbol/available-cryptocurrencies/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_cryptocurrencies"
+    }
+  },
+  {
+    "name": "fmpsdk_available_efts",
+    "description": "Trying to avoid a breaking change.\nThis method is misspelled so moving to a correct spelling method and deprecating this one.\nUse available_etfs() instead.\n:param apikey:\n:return:",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_efts"
+    }
+  },
+  {
+    "name": "fmpsdk_available_etfs",
+    "description": "Query FMP /symbol/available-etfs/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_etfs"
+    }
+  },
+  {
+    "name": "fmpsdk_available_euronext",
+    "description": "Query FMP /symbol/available-euronext/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_euronext"
+    }
+  },
+  {
+    "name": "fmpsdk_available_forex",
+    "description": "Query FMP /symbol/available-forex-currency-pairs/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_forex"
+    }
+  },
+  {
+    "name": "fmpsdk_available_indexes",
+    "description": "Query FMP /symbol/available-indexes/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_indexes"
+    }
+  },
+  {
+    "name": "fmpsdk_available_mutual_funds",
+    "description": "Query FMP /symbol/available-mutual-funds/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_mutual_funds"
+    }
+  },
+  {
+    "name": "fmpsdk_available_traded_list",
+    "description": "Query FMP /available-traded/list/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_traded_list"
+    }
+  },
+  {
+    "name": "fmpsdk_available_tsx",
+    "description": "Query FMP /symbol/available-tsx/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "available_tsx"
+    }
+  },
+  {
+    "name": "fmpsdk_balance_sheet_statement",
+    "description": "Query FMP /balance-sheet-statement/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "balance_sheet_statement.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "balance_sheet_statement"
+    }
+  },
+  {
+    "name": "fmpsdk_balance_sheet_statement_as_reported",
+    "description": "Query FMP /balance-sheet-statement-as-reported/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "balance_sheet_as_reported.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "balance_sheet_statement_as_reported"
+    }
+  },
+  {
+    "name": "fmpsdk_balance_sheet_statement_growth",
+    "description": "Query FMP /balance-sheet-statement-growth/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "balance_sheet_statement_growth"
+    }
+  },
+  {
+    "name": "fmpsdk_bulk_historical_eod",
+    "description": "Batch request that contains all end of day prices for specific date",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "bulk_historical_eod"
+    }
+  },
+  {
+    "name": "fmpsdk_bulk_profiles",
+    "description": "It contains all profiles from our API in one CSV file",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "bulk_profiles"
+    }
+  },
+  {
+    "name": "fmpsdk_cash_flow_statement",
+    "description": "Query FMP /cash-flow-statement/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "cash_flow_statement.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cash_flow_statement"
+    }
+  },
+  {
+    "name": "fmpsdk_cash_flow_statement_as_reported",
+    "description": "Query FMP /cash-flow-statement-as-reported/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "cash_flow_as_reported.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cash_flow_statement_as_reported"
+    }
+  },
+  {
+    "name": "fmpsdk_cash_flow_statement_growth",
+    "description": "Query FMP /cash-flow-statement-growth/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cash_flow_statement_growth"
+    }
+  },
+  {
+    "name": "fmpsdk_cik",
+    "description": "Query FMP /cik/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "cik_id",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cik"
+    }
+  },
+  {
+    "name": "fmpsdk_cik_list",
+    "description": "Query FMP /cik_list/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cik_list"
+    }
+  },
+  {
+    "name": "fmpsdk_cik_search",
+    "description": "Query FMP /cik-search/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cik_search"
+    }
+  },
+  {
+    "name": "fmpsdk_commitment_of_traders_report",
+    "description": "Query FMP /commitment_of_traders_report API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commitment_of_traders_report"
+    }
+  },
+  {
+    "name": "fmpsdk_commitment_of_traders_report_analysis",
+    "description": "Query FMP /commitment_of_traders_report_analysis API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commitment_of_traders_report_analysis"
+    }
+  },
+  {
+    "name": "fmpsdk_commitment_of_traders_report_list",
+    "description": "Query FMP /commitment_of_traders_report/list API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commitment_of_traders_report_list"
+    }
+  },
+  {
+    "name": "fmpsdk_commodities_list",
+    "description": "Query FMP /quotes/commodity/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "commodities_list"
+    }
+  },
+  {
+    "name": "fmpsdk_company_profile",
+    "description": "Query FMP /profile/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "company_profile"
+    }
+  },
+  {
+    "name": "fmpsdk_crypto_news",
+    "description": "Query FMP /crypto_news/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "crypto_news"
+    }
+  },
+  {
+    "name": "fmpsdk_cryptocurrencies_list",
+    "description": "Query FMP /quotes/crypto/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cryptocurrencies_list"
+    }
+  },
+  {
+    "name": "fmpsdk_cusip",
+    "description": "Query FMP /cusip/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "cik_id",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "cusip"
+    }
+  },
+  {
+    "name": "fmpsdk_delisted_companies",
+    "description": "Query FMP /delisted-companies/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "delisted_companies"
+    }
+  },
+  {
+    "name": "fmpsdk_discounted_cash_flow",
+    "description": "Query FMP /discounted-cash-flow/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "discounted_cash_flow"
+    }
+  },
+  {
+    "name": "fmpsdk_dividend_calendar",
+    "description": "Query FMP /stock_dividend_calendar/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "dividend_calendar"
+    }
+  },
+  {
+    "name": "fmpsdk_dowjones_constituent",
+    "description": "Query FMP /dowjones_constituent/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "dowjones_constituents.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "dowjones_constituent"
+    }
+  },
+  {
+    "name": "fmpsdk_earning_calendar",
+    "description": "Query FMP /earning_calendar/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "earning_calendar"
+    }
+  },
+  {
+    "name": "fmpsdk_earnings_surprises",
+    "description": "Query FMP /earnings-surprises/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "earnings_surprises"
+    }
+  },
+  {
+    "name": "fmpsdk_economic_calendar",
+    "description": "Query FMP /economic_calendar/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "economic_calendar"
+    }
+  },
+  {
+    "name": "fmpsdk_enterprise_values",
+    "description": "Query FMP /enterprise-values/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "enterprise_values"
+    }
+  },
+  {
+    "name": "fmpsdk_etf_country_weightings",
+    "description": "Query FMP /etf-country-weightings/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "etf_country_weightings"
+    }
+  },
+  {
+    "name": "fmpsdk_etf_holders",
+    "description": "Query FMP /etf-holder/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "etf_holders"
+    }
+  },
+  {
+    "name": "fmpsdk_etf_list",
+    "description": "Query FMP /etf/list/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "etf_list"
+    }
+  },
+  {
+    "name": "fmpsdk_etf_price_realtime",
+    "description": "Query FMP /quotes/etf/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "etf_price_realtime"
+    }
+  },
+  {
+    "name": "fmpsdk_etf_sector_weightings",
+    "description": "Query FMP /etf-sector-weightings/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "etf_sector_weightings"
+    }
+  },
+  {
+    "name": "fmpsdk_euronext_list",
+    "description": "Query FMP /quotes/euronext/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "euronext_list"
+    }
+  },
+  {
+    "name": "fmpsdk_exchange_realtime",
+    "description": "Query FMP /quotes/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "exchange",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "exchange_realtime"
+    }
+  },
+  {
+    "name": "fmpsdk_financial_growth",
+    "description": "Query FMP /financial-growth/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "financial_growth"
+    }
+  },
+  {
+    "name": "fmpsdk_financial_ratios",
+    "description": "Query FmP /ratios/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "financial_ratios"
+    }
+  },
+  {
+    "name": "fmpsdk_financial_ratios_ttm",
+    "description": "Query FmP /ratios-ttm/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "financial_ratios_ttm"
+    }
+  },
+  {
+    "name": "fmpsdk_financial_statement",
+    "description": "Query FMP /financial-statements/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "financial_statement.zip"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "financial_statement"
+    }
+  },
+  {
+    "name": "fmpsdk_financial_statement_full_as_reported",
+    "description": "Query FMP /financial-statement-full-as-reported/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "financial_statement_full_as_reported"
+    }
+  },
+  {
+    "name": "fmpsdk_financial_statement_symbol_lists",
+    "description": "Query FMP /financial-statement-symbol-lists/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "financial_statement_symbol_lists"
+    }
+  },
+  {
+    "name": "fmpsdk_fmp_articles",
+    "description": "Query FMP /fmp/articles/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      },
+      {
+        "name": "size",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "fmp_articles"
+    }
+  },
+  {
+    "name": "fmpsdk_forex",
+    "description": "Query FMP /fx/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "forex"
+    }
+  },
+  {
+    "name": "fmpsdk_forex_list",
+    "description": "Query FMP /quotes/forex/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "forex_list"
+    }
+  },
+  {
+    "name": "fmpsdk_forex_news",
+    "description": "Query FMP /stock_news/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "forex_news"
+    }
+  },
+  {
+    "name": "fmpsdk_form_13f",
+    "description": "Query FMP /form-thirteen/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "cik_id",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "form_13f"
+    }
+  },
+  {
+    "name": "fmpsdk_gainers",
+    "description": "Query FMP /gainers/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "gainers"
+    }
+  },
+  {
+    "name": "fmpsdk_general_news",
+    "description": "Query FMP /general_news/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "general_news"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_chart",
+    "description": "Query FMP Historical Chart API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "time_delta",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "time_series",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "line"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_chart"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_daily_discounted_cash_flow",
+    "description": "Query FMP /historical-daily-discounted-cash-flow/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_daily_discounted_cash_flow"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_discounted_cash_flow",
+    "description": "Query FMP /historical-discounted-cash-flow/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_discounted_cash_flow"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_dowjones_constituent",
+    "description": "Query FMP /historical/dowjones_constitnuet/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_dowjones_constituent"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_earning_calendar",
+    "description": "Query FMP /historical/earning_calendar/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_earning_calendar"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_employee_count",
+    "description": "historical_employee_count",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_employee_count"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_market_capitalization",
+    "description": "Query FMP /historical-market-capitalization/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_market_capitalization"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_nasdaq_constituent",
+    "description": "Query FMP /historical/nasdaq_constitnuet/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_nasdaq_constituent"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_price_full",
+    "description": "Query FMP Historical Price Full API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_price_full"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_rating",
+    "description": "Query FMP /historical-rating/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_rating"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_sp500_constituent",
+    "description": "Query FMP /historical/sp500_constitnuet/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_sp500_constituent"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_stock_dividend",
+    "description": "Query FMP /historical-price-full/stock_divident/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_stock_dividend"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_stock_split",
+    "description": "Query FMP /historical-price-full/stock_divident/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_stock_split"
+    }
+  },
+  {
+    "name": "fmpsdk_historical_survivorship_bias_free_eod",
+    "description": "Query FMP /historical-price-full/<ticker>/<date> API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "date",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "historical_survivorship_bias_free_eod"
+    }
+  },
+  {
+    "name": "fmpsdk_income_statement",
+    "description": "Query FMP /income-statement/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "income_statement.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "income_statement"
+    }
+  },
+  {
+    "name": "fmpsdk_income_statement_as_reported",
+    "description": "Query FMP /income-statement-as-reported/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "income_statement_as_reported.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "income_statement_as_reported"
+    }
+  },
+  {
+    "name": "fmpsdk_income_statement_growth",
+    "description": "Query FMP /income-statement-growth/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "income_statement_growth"
+    }
+  },
+  {
+    "name": "fmpsdk_indexes",
+    "description": "Query FMP /quotes/index/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "indexes"
+    }
+  },
+  {
+    "name": "fmpsdk_insider_trading",
+    "description": "Query FMP /insider-trading/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "reporting_cik",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "company_cik",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "insider_trading"
+    }
+  },
+  {
+    "name": "fmpsdk_insider_trading_rss_feed",
+    "description": "Query FMP /insider-trading-rss-feed/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "insider_trading_rss_feed"
+    }
+  },
+  {
+    "name": "fmpsdk_institutional_holders",
+    "description": "Query FMP /institutional-holder/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "institutional_holders"
+    }
+  },
+  {
+    "name": "fmpsdk_ipo_calendar",
+    "description": "Query FMP /ipo_calendar/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "ipo_calendar"
+    }
+  },
+  {
+    "name": "fmpsdk_key_executives",
+    "description": "Query FMP /key-executives/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "key_executives"
+    }
+  },
+  {
+    "name": "fmpsdk_key_metrics",
+    "description": "Query FMP /key-metrics/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "annual"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "key_metrics"
+    }
+  },
+  {
+    "name": "fmpsdk_key_metrics_ttm",
+    "description": "Query FMP /key-metrics-ttm/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "key_metrics_ttm"
+    }
+  },
+  {
+    "name": "fmpsdk_losers",
+    "description": "Query FMP /losers/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "losers"
+    }
+  },
+  {
+    "name": "fmpsdk_mapper_cik_company",
+    "description": "Query FMP /mapper-cik-company/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "ticker",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "mapper_cik_company"
+    }
+  },
+  {
+    "name": "fmpsdk_mapper_cik_name",
+    "description": "Query FMP /mapper-cik-name/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "mapper_cik_name"
+    }
+  },
+  {
+    "name": "fmpsdk_market_capitalization",
+    "description": "Query FMP /market-capitalization/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "market_capitalization"
+    }
+  },
+  {
+    "name": "fmpsdk_market_hours",
+    "description": "Query FMP /market-hours/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "market_hours"
+    }
+  },
+  {
+    "name": "fmpsdk_market_open",
+    "description": "Query FMP /is-the-market-open-all/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "market_open"
+    }
+  },
+  {
+    "name": "fmpsdk_mutual_fund_holders",
+    "description": "Query FMP /mutual-fund-holder/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "mutual_fund_holders"
+    }
+  },
+  {
+    "name": "fmpsdk_mutual_fund_list",
+    "description": "Query FMP /quotes/mutual_fund/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "mutual_fund_list"
+    }
+  },
+  {
+    "name": "fmpsdk_nasdaq_constituent",
+    "description": "Query FMP /nasdaq_constituent/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "nasdaq_constituents.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "nasdaq_constituent"
+    }
+  },
+  {
+    "name": "fmpsdk_news_sentiment_rss",
+    "description": "Query FMP /stock-news-sentiments-rss-feed/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "news_sentiment_rss"
+    }
+  },
+  {
+    "name": "fmpsdk_press_releases",
+    "description": "Query FMP /press-releases/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "press_releases"
+    }
+  },
+  {
+    "name": "fmpsdk_quote",
+    "description": "Query FMP Quote API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "quote"
+    }
+  },
+  {
+    "name": "fmpsdk_quote_short",
+    "description": "Query FMP /quote-short/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "quote_short"
+    }
+  },
+  {
+    "name": "fmpsdk_rating",
+    "description": "Query FMP /rating/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "rating"
+    }
+  },
+  {
+    "name": "fmpsdk_search",
+    "description": "Query FMP /search/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": ""
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "exchange",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": ""
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "search"
+    }
+  },
+  {
+    "name": "fmpsdk_search_ticker",
+    "description": "Query FMP /search-ticker/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": ""
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "exchange",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": ""
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "search_ticker"
+    }
+  },
+  {
+    "name": "fmpsdk_sec_filings",
+    "description": "Query FMP /sec_filings/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "filing_type",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": ""
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "sec_filings"
+    }
+  },
+  {
+    "name": "fmpsdk_sec_rss_feeds",
+    "description": "Query FMP /rss_feed/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "sec_rss_feeds.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "sec_rss_feeds"
+    }
+  },
+  {
+    "name": "fmpsdk_sectors_performance",
+    "description": "Query FMP /sectors_performance/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "sectors_performance"
+    }
+  },
+  {
+    "name": "fmpsdk_senate_disclosure_rss",
+    "description": "Query FMP API for recently filed Senate disclosures.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "senate_disclosure_rss"
+    }
+  },
+  {
+    "name": "fmpsdk_senate_disclosure_symbol",
+    "description": "Query FMP API for recently filed Senate disclosures filtered by symbol.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "senate_disclosure_symbol"
+    }
+  },
+  {
+    "name": "fmpsdk_senate_trading_rss",
+    "description": "Query FMP API for recently reported Senate trades.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "senate_trading_rss"
+    }
+  },
+  {
+    "name": "fmpsdk_senate_trading_symbol",
+    "description": "Query FMP API for recently reported Senate trades filtered by symbol.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "senate_trading_symbol"
+    }
+  },
+  {
+    "name": "fmpsdk_sentiment_change",
+    "description": "Query FMP /social-sentiments/change/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "stocktwits"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "sentiment_change"
+    }
+  },
+  {
+    "name": "fmpsdk_shares_float",
+    "description": "Query FMP /shares_float/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "all",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "shares_float"
+    }
+  },
+  {
+    "name": "fmpsdk_social_sentiments",
+    "description": "Query FMP /historical/social-sentiment/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "social_sentiments"
+    }
+  },
+  {
+    "name": "fmpsdk_sp500_constituent",
+    "description": "Query FMP /sp500_constituent/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "False"
+      },
+      {
+        "name": "filename",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "sp500_constituents.csv"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "sp500_constituent"
+    }
+  },
+  {
+    "name": "fmpsdk_stock_news",
+    "description": "Query FMP /stock_news/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "tickers",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": ""
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "page",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "0"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "stock_news"
+    }
+  },
+  {
+    "name": "fmpsdk_stock_screener",
+    "description": "Query FMP /stock-screener/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "market_cap_more_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "market_cap_lower_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "beta_more_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "beta_lower_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "volume_more_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "volume_lower_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "dividend_more_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "dividend_lower_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "price_more_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "price_lower_than",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "is_etf",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "is_fund",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "is_actively_trading",
+        "type": "boolean",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "sector",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "industry",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "exchange",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "stock_screener"
+    }
+  },
+  {
+    "name": "fmpsdk_stock_split_calendar",
+    "description": "Query FMP /stock_split_calendar/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "from_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      },
+      {
+        "name": "to_date",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "None"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "stock_split_calendar"
+    }
+  },
+  {
+    "name": "fmpsdk_symbols_list",
+    "description": "Query FMP /stock/list/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "symbols_list"
+    }
+  },
+  {
+    "name": "fmpsdk_technical_indicators",
+    "description": "Query FMP /technical_indicator/ API.",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "period",
+        "type": "integer",
+        "required": false,
+        "description": null,
+        "default": "10"
+      },
+      {
+        "name": "statistics_type",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "SMA"
+      },
+      {
+        "name": "time_delta",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "daily"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "technical_indicators"
+    }
+  },
+  {
+    "name": "fmpsdk_trending_sentiment",
+    "description": "Query FMP /social-sentiments/trending/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "required": false,
+        "description": null,
+        "default": "stocktwits"
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "trending_sentiment"
+    }
+  },
+  {
+    "name": "fmpsdk_tsx_list",
+    "description": "Query FMP /quotes/tsx/ API",
+    "method": null,
+    "path": null,
+    "tags": [
+      "fmpsdk"
+    ],
+    "parameters": [
+      {
+        "name": "apikey",
+        "type": "string",
+        "required": true,
+        "description": null,
+        "default": null
+      }
+    ],
+    "metadata": {
+      "source": "python_sdk",
+      "sdk_module": "fmpsdk",
+      "sdk_function": "tsx_list"
+    }
+  }
+]

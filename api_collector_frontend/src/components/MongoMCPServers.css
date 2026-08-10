@@ -1,0 +1,179 @@
+.mongo-mcp-panel {
+  margin-top: 1.5rem;
+}
+
+.mcp-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.mcp-refresh-btn {
+  padding: 0.35rem 0.9rem;
+  background: #2d3748;
+  color: #a0aec0;
+  border: 1px solid #4a5568;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: background 0.2s;
+}
+.mcp-refresh-btn:hover:not(:disabled) { background: #4a5568; color: #e2e8f0; }
+.mcp-refresh-btn:disabled { opacity: 0.5; cursor: default; }
+
+/* NL Query */
+.mcp-query-box {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.mcp-query-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  background: #1a202c;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  color: #e2e8f0;
+  font-size: 0.88rem;
+  outline: none;
+}
+.mcp-query-input:focus { border-color: #63b3ed; }
+.mcp-ask-btn {
+  padding: 0.5rem 1.1rem;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.mcp-ask-btn:hover:not(:disabled) { background: #2b6cb0; }
+.mcp-ask-btn:disabled { opacity: 0.5; cursor: default; }
+
+.mcp-answer-box {
+  background: #1a202c;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  color: #a0aec0;
+  font-size: 0.85rem;
+}
+.mcp-answer-box pre { margin: 0; white-space: pre-wrap; word-break: break-word; }
+
+/* Empty */
+.mcp-empty {
+  color: #718096;
+  font-size: 0.88rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Table */
+.mcp-table-wrap { overflow-x: auto; }
+.mcp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.mcp-table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  color: #718096;
+  font-weight: 600;
+  border-bottom: 1px solid #2d3748;
+  white-space: nowrap;
+}
+.mcp-table td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #1a202c;
+  vertical-align: middle;
+  color: #cbd5e0;
+}
+.mcp-table tr:last-child td { border-bottom: none; }
+.mcp-table tr:hover td { background: rgba(255,255,255,0.03); }
+.mcp-row-active td { background: rgba(49,130,206,0.08) !important; }
+
+.mcp-source-cell { max-width: 220px; }
+.mcp-source-name { display: block; font-weight: 500; color: #e2e8f0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mcp-id-chip { font-size: 0.72rem; color: #4a5568; font-family: monospace; }
+
+.mcp-num { text-align: right; font-family: monospace; color: #90cdf4; }
+.mcp-date { white-space: nowrap; color: #718096; font-size: 0.78rem; }
+
+/* Badges */
+.mcp-badge {
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.badge-blue   { background: #2b4c7e; color: #90cdf4; }
+.badge-orange { background: #7b341e; color: #fbd38d; }
+.badge-purple { background: #44337a; color: #d6bcfa; }
+.badge-green  { background: #1c4532; color: #9ae6b4; }
+.badge-gray   { background: #2d3748; color: #a0aec0; }
+
+/* Action buttons */
+.mcp-actions-cell { white-space: nowrap; display: flex; gap: 0.4rem; align-items: center; }
+.mcp-view-btn, .mcp-del-btn, .mcp-confirm-btn, .mcp-cancel-btn {
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+.mcp-view-btn { background: #2b4c7e; color: #90cdf4; }
+.mcp-view-btn:hover { opacity: 0.85; }
+.mcp-del-btn { background: #742a2a; color: #fc8181; }
+.mcp-del-btn:hover { opacity: 0.85; }
+.mcp-confirm-btn { background: #c53030; color: #fff; }
+.mcp-cancel-btn { background: #2d3748; color: #a0aec0; }
+
+/* Code Viewer */
+.mcp-code-viewer {
+  margin-top: 1.25rem;
+  border: 1px solid #2d3748;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mcp-code-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #1a202c;
+  border-bottom: 1px solid #2d3748;
+  font-size: 0.82rem;
+  color: #a0aec0;
+}
+.mcp-code-header span { flex: 1; font-weight: 600; color: #e2e8f0; }
+.mcp-copy-btn, .mcp-close-code-btn {
+  padding: 0.2rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border: none;
+  background: #2d3748;
+  color: #a0aec0;
+}
+.mcp-copy-btn:hover, .mcp-close-code-btn:hover { background: #4a5568; color: #e2e8f0; }
+.mcp-code-pre {
+  margin: 0;
+  padding: 1rem;
+  background: #0d1117;
+  color: #a8d8a8;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  max-height: 500px;
+  overflow-y: auto;
+  white-space: pre;
+}

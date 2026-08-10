@@ -1,0 +1,4 @@
+#####example 1#####
+run my_server using this command:
+run my_server.py:mcp --transport http --port 8000
+use my_client to query this mcp server and get a response

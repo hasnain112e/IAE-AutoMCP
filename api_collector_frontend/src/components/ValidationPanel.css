@@ -1,0 +1,49 @@
+
+.validation-panel .panel-header {
+  margin-bottom: 1rem;
+}
+
+.validation-panel .validation-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.validation-panel .status-success {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.validation-panel .status-fail {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.validation-panel .feedback-messages .feedback-message {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.validation-panel .feedback-messages .success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.validation-panel .feedback-messages .warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.validation-panel .feedback-messages .error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.validation-panel .countdown {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+

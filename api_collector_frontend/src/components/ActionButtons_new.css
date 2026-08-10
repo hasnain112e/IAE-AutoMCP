@@ -1,0 +1,87 @@
+.action-buttons {
+  /* Uses base card styles */
+}
+
+.buttons-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-button {
+  width: 100%;
+  padding: 16px 24px;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.button-icon {
+  font-size: 20px;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.status-message {
+  padding: 20px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.status-message.success {
+  background: #E8F5E9;
+  border: 1px solid var(--color-success);
+}
+
+.status-message.error {
+  background: #FFEBEE;
+  border: 1px solid var(--color-error);
+}
+
+.status-icon {
+  font-size: 32px;
+}
+
+.status-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.status-subtitle {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.action-info {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.info-label {
+  color: var(--color-text-secondary);
+}
+
+.info-value {
+  color: var(--color-text);
+  font-weight: 500;
+}

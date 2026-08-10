@@ -1,0 +1,197 @@
+.input-section {
+  /* Uses base card styles */
+}
+
+.source-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.source-tab {
+  flex: 1;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.source-tab:hover {
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.source-tab.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.tab-icon {
+  font-size: 18px;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+/* File Upload Styles */
+.drop-zone {
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 48px 24px;
+  text-align: center;
+  transition: all 0.2s;
+  background: var(--color-bg);
+  cursor: pointer;
+}
+
+.drop-zone.dragging {
+  border-color: var(--color-primary);
+  background: rgba(0, 112, 243, 0.05);
+}
+
+.drop-zone.has-file {
+  padding: 24px;
+  background: var(--color-surface);
+}
+
+.drop-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.drop-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.drop-subtitle {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-bottom: 16px;
+}
+
+.browse-button {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.drop-hint {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.file-selected {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: var(--color-bg);
+  border-radius: var(--radius);
+}
+
+.file-icon {
+  font-size: 32px;
+}
+
+.file-info {
+  flex: 1;
+  text-align: left;
+}
+
+.file-name {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.file-size {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.file-remove {
+  padding: 8px 12px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.file-remove:hover {
+  background: rgba(244, 67, 54, 0.1);
+  color: var(--color-error);
+}
+
+/* URL & SDK Input Styles */
+.input-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.text-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--color-text);
+  background: var(--color-surface);
+  transition: all 0.2s;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.1);
+}
+
+.text-input::placeholder {
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+}
+
+.input-hint {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+/* Default Note */
+.default-note {
+  margin-top: 20px;
+  padding: 12px 16px;
+  background: #FFF9E6;
+  border: 1px solid #FFE082;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: #F57C00;
+}
+
+.note-icon {
+  font-size: 18px;
+}

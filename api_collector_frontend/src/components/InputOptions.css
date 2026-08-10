@@ -1,0 +1,49 @@
+
+.input-options .tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.input-options .tabs button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-right: 0.25rem;
+}
+
+.input-options .tabs button.active {
+  background-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.input-options .tab-content {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0 0.25rem 0.25rem 0.25rem;
+  background-color: #ffffff;
+}
+
+.input-options input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.input-options .dropzone {
+  border: 2px dashed #dee2e6;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-options .dropzone:hover {
+  background-color: #f8f9fa;
+}
+.input-options .hidden {
+  display: none;
+}
+

@@ -1,0 +1,153 @@
+.tools-panel {
+  /* Uses base card styles */
+}
+
+.tools-summary {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: var(--color-bg);
+  border-radius: var(--radius);
+}
+
+.tools-count {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.tools-table-container {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.tools-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.tools-table thead {
+  background: var(--color-bg);
+}
+
+.tools-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tools-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tools-table tbody tr:hover {
+  background: var(--color-bg);
+}
+
+.tools-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tool-name {
+  font-weight: 500;
+  color: var(--color-text);
+  font-family: 'Courier New', monospace;
+}
+
+.tool-path {
+  color: var(--color-text-secondary);
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+}
+
+.method-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.method-get {
+  background: #E3F2FD;
+  color: #1976D2;
+}
+
+.method-post {
+  background: #E8F5E9;
+  color: #388E3C;
+}
+
+.method-put {
+  background: #FFF3E0;
+  color: #F57C00;
+}
+
+.method-delete {
+  background: #FFEBEE;
+  color: #D32F2F;
+}
+
+.method-patch {
+  background: #F3E5F5;
+  color: #7B1FA2;
+}
+
+.tool-tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 2px 8px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.tools-footer {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.tools-note {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.tools-empty {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.empty-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+  opacity: 0.3;
+}
+
+.tools-empty p {
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+.empty-subtitle {
+  font-size: 13px;
+  opacity: 0.7;
+}

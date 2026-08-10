@@ -1,0 +1,36 @@
+
+.tooling-section .tools-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tooling-section .tools-table th,
+.tooling-section .tools-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tooling-section .tools-table th {
+  background-color: #f8f9fa;
+}
+
+.status-pill {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.status-pill.loaded {
+  background-color: #ffc107;
+}
+
+.status-pill.parsed {
+  background-color: #17a2b8;
+}
+
+.status-pill.ready {
+  background-color: #28a745;
+}

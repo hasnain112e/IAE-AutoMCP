@@ -1,0 +1,118 @@
+.iteration-tabs-container {
+  margin: 1rem 0;
+}
+
+.tabs-header {
+  margin-bottom: 1rem;
+}
+
+.tabs-header h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.tabs-hint {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.tabs-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.tab-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 140px;
+  position: relative;
+}
+
+.tab-button:hover {
+  background: var(--color-surface);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.tab-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+}
+
+.tab-number {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.tab-button.active .tab-number {
+  color: white;
+}
+
+.tab-badge {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.tab-button.active .tab-badge {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.tab-badge.approved {
+  background: rgba(40, 167, 69, 0.15);
+  color: #28a745;
+}
+
+.tab-badge.rejected {
+  background: rgba(220, 53, 69, 0.15);
+  color: #dc3545;
+}
+
+.tab-time {
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+}
+
+.tab-button.active .tab-time {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tab-pane {
+  width: 100%;
+}
+
+.code-pane {
+  /* Code pane specific styles if needed */
+}
+
+.validation-pane {
+  /* Validation pane specific styles if needed */
+}
+

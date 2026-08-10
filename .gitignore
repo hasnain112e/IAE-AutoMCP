@@ -1,0 +1,33 @@
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / Dependencies
+node_modules/
+**/node_modules/
+
+# Logs & Cache
+*.log
+debug_out.txt
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+*.pyc
+
+# Databases & Artifacts
+*.db
+*.sqlite
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+.DS_Store

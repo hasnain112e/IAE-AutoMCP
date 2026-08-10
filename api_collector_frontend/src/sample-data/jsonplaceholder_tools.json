@@ -1,0 +1,153 @@
+[
+  {
+    "name": "get_posts",
+    "description": "HTTP GET /posts discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "GET",
+    "path": "/posts",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "es\nAll HTTP methods are supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/post",
+      "crawler_log": [
+        "Starting classic crawl from https://jsonplaceholder.typicode.com/",
+        "[classic] Visited https://jsonplaceholder.typicode.com/ (depth=0)",
+        "[classic] Found 8 endpoint(s) on https://jsonplaceholder.typicode.com/",
+        "[classic] Visited https://jsonplaceholder.typicode.com/guide (depth=1)",
+        "Classic crawl discovered 8 endpoint(s)."
+      ]
+    }
+  },
+  {
+    "name": "get_posts_1",
+    "description": "HTTP GET /posts/1 discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "GET",
+    "path": "/posts/1",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "methods are supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/po"
+    }
+  },
+  {
+    "name": "get_posts_1_comments",
+    "description": "HTTP GET /posts/1/comments discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "GET",
+    "path": "/posts/1/comments",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/posts/1\nDELETE\n/posts/1"
+    }
+  },
+  {
+    "name": "get_comments_postId_1",
+    "description": "HTTP GET /comments?postId=1 discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "GET",
+    "path": "/comments?postId=1",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/posts/1\nDELETE\n/posts/1"
+    }
+  },
+  {
+    "name": "post_posts",
+    "description": "HTTP POST /posts discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "POST",
+    "path": "/posts",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/posts/1\nDELETE\n/posts/1"
+    }
+  },
+  {
+    "name": "put_posts_1",
+    "description": "HTTP PUT /posts/1 discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "PUT",
+    "path": "/posts/1",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/posts/1\nDELETE\n/posts/1"
+    }
+  },
+  {
+    "name": "patch_posts_1",
+    "description": "HTTP PATCH /posts/1 discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "PATCH",
+    "path": "/posts/1",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/posts/1\nDELETE\n/posts/1"
+    }
+  },
+  {
+    "name": "delete_posts_1",
+    "description": "HTTP DELETE /posts/1 discovered by crawling documentation pages starting from https://jsonplaceholder.typicode.com/. Source page: https://jsonplaceholder.typicode.com/.",
+    "method": "DELETE",
+    "path": "/posts/1",
+    "tags": [
+      "url-scraped",
+      "jsonplaceholder.typicode.com"
+    ],
+    "parameters": [],
+    "metadata": {
+      "source": "url",
+      "start_url": "https://jsonplaceholder.typicode.com/",
+      "page_url": "https://jsonplaceholder.typicode.com/",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "snippet": "supported. You can use http or https for your requests.\nGET\n/posts\nGET\n/posts/1\nGET\n/posts/1/comments\nGET\n/comments?postId=1\nPOST\n/posts\nPUT\n/posts/1\nPATCH\n/posts/1\nDELETE\n/posts/1"
+    }
+  }
+]
